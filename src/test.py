@@ -19,6 +19,7 @@ def test_model():
 
     try:
         checkpoint = torch.load(str(MODEL_SAVE_DIR/'resnet_final_model.pth'))
+        # checkpoint = torch.load(str(MODEL_SAVE_DIR/'custom_final_model.pth'))
         model.load_state_dict(checkpoint['model_state_dict'])
         model.eval()
         logger.info("Model loaded successfully")
