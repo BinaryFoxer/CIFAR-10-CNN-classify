@@ -1,0 +1,12 @@
+2025-11-16 13:25:23 | utils.logger              | INFO     | Model loaded successfully
+2025-11-16 13:26:18 | utils.logger              | INFO     | Test accuracy:94.30%
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of airplane  :94.30%(943/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of automobile:97.60%(976/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of bird      :93.30%(933/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of cat       :90.90%(909/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of deer      :96.70%(967/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of dog       :87.80%(878/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of frog      :95.90%(959/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of horse     :95.60%(956/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of ship      :96.20%(962/1000)
+2025-11-16 13:26:18 | utils.logger              | INFO     | Accuracy of truck     :94.70%(947/1000)
