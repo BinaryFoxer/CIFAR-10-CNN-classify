@@ -10,3 +10,74 @@
 2025-11-18 09:58:41 | utils.logger              | INFO     | Accuracy of horse     :94.70%(947/1000)
 2025-11-18 09:58:41 | utils.logger              | INFO     | Accuracy of ship      :96.20%(962/1000)
 2025-11-18 09:58:41 | utils.logger              | INFO     | Accuracy of truck     :95.50%(955/1000)
+2025-11-18 12:17:20 | utils.logger              | INFO     | Model loaded successfully
+2025-11-18 12:18:12 | utils.logger              | INFO     | Test accuracy:93.81%
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of airplane  :94.20%(942/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of automobile:96.50%(965/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of bird      :92.70%(927/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of cat       :89.80%(898/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of deer      :95.30%(953/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of dog       :87.80%(878/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of frog      :95.40%(954/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of horse     :94.70%(947/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of ship      :96.20%(962/1000)
+2025-11-18 12:18:12 | utils.logger              | INFO     | Accuracy of truck     :95.50%(955/1000)
+2025-11-18 12:33:50 | utils.logger              | INFO     | Model loaded successfully
+2025-11-18 12:33:50 | utils.logger              | INFO     | Grad-CAM target layer: Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+2025-11-18 12:33:50 | utils.logger              | INFO     | Collecting samples...
+2025-11-18 12:34:48 | utils.logger              | INFO     | Collected 9381 correct samples and 619 wrong samples.
+2025-11-18 12:34:48 | utils.logger              | INFO     | Selected 10 samples for Grad-CAM visualization.
+2025-11-18 12:37:39 | utils.logger              | INFO     | Model loaded successfully
+2025-11-18 12:37:39 | utils.logger              | INFO     | Grad-CAM target layer: Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+2025-11-18 12:37:39 | utils.logger              | INFO     | Collecting samples...
+2025-11-18 12:38:38 | utils.logger              | INFO     | Collected 9381 correct samples and 619 wrong samples.
+2025-11-18 12:38:38 | utils.logger              | INFO     | Selected 10 samples for Grad-CAM visualization.
+2025-11-18 12:38:41 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_cat_pred_cat_20251118_123840_179376.png
+2025-11-18 12:38:42 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_frog_pred_frog_20251118_123841_861747.png
+2025-11-18 12:38:42 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_horse_pred_horse_20251118_123842_517735.png
+2025-11-18 12:38:43 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_truck_pred_truck_20251118_123843_178041.png
+2025-11-18 12:38:44 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_bird_pred_bird_20251118_123843_839759.png
+2025-11-18 12:38:45 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_cat_pred_dog_20251118_123844_697066.png
+2025-11-18 12:38:45 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_ship_pred_deer_20251118_123845_385117.png
+2025-11-18 12:38:46 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_dog_pred_bird_20251118_123846_077215.png
+2025-11-18 12:38:47 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_cat_pred_dog_20251118_123846_771029.png
+2025-11-18 12:38:47 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations\gradcam_truck_pred_automobile_20251118_123847_469932.png
+2025-11-18 12:38:47 | utils.logger              | INFO     | Test Accuracy: 93.81%
+2025-11-18 12:38:47 | utils.logger              | INFO     | Grad-CAM saved to: g:\CIFAR-10-classify\logs\gradcam_visualizations
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of airplane  : 94.20% (942/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of automobile: 96.50% (965/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of bird      : 92.70% (927/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of cat       : 89.80% (898/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of deer      : 95.30% (953/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of dog       : 87.80% (878/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of frog      : 95.40% (954/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of horse     : 94.70% (947/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of ship      : 96.20% (962/1000)
+2025-11-18 12:38:47 | utils.logger              | INFO     | Accuracy of truck     : 95.50% (955/1000)
+2025-11-18 12:57:32 | utils.logger              | INFO     | Model loaded successfully
+2025-11-18 12:57:32 | utils.logger              | INFO     | Grad-CAM target layer: Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+2025-11-18 12:57:32 | utils.logger              | INFO     | Collecting samples...
+2025-11-18 12:58:33 | utils.logger              | INFO     | Collected 9430 correct samples and 570 wrong samples.
+2025-11-18 12:58:33 | utils.logger              | INFO     | Selected 10 samples for Grad-CAM visualization.
+2025-11-18 12:58:34 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_bird_pred_bird_20251118_125833_894233.png
+2025-11-18 12:58:35 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_frog_pred_frog_20251118_125834_974895.png
+2025-11-18 12:58:35 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_frog_pred_frog_20251118_125835_625122.png
+2025-11-18 12:58:36 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_automobile_pred_automobile_20251118_125836_273820.png
+2025-11-18 12:58:37 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_bird_pred_bird_20251118_125836_931257.png
+2025-11-18 12:58:38 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_dog_pred_deer_20251118_125837_797980.png
+2025-11-18 12:58:38 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_dog_pred_cat_20251118_125838_487832.png
+2025-11-18 12:58:39 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_frog_pred_deer_20251118_125839_216162.png
+2025-11-18 12:58:40 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_frog_pred_bird_20251118_125839_932073.png
+2025-11-18 12:58:40 | utils.logger              | INFO     | Grad-CAM saved: g:\CIFAR-10-classify\logs\gradcam_visualizations_18\gradcam_bird_pred_dog_20251118_125840_643544.png
+2025-11-18 12:58:40 | utils.logger              | INFO     | Test Accuracy: 94.30%
+2025-11-18 12:58:40 | utils.logger              | INFO     | Grad-CAM saved to: g:\CIFAR-10-classify\logs\gradcam_visualizations_18
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of airplane  : 94.30% (943/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of automobile: 97.60% (976/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of bird      : 93.30% (933/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of cat       : 90.90% (909/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of deer      : 96.70% (967/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of dog       : 87.80% (878/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of frog      : 95.90% (959/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of horse     : 95.60% (956/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of ship      : 96.20% (962/1000)
+2025-11-18 12:58:40 | utils.logger              | INFO     | Accuracy of truck     : 94.70% (947/1000)
