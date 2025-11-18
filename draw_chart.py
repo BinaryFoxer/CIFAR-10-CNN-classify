@@ -123,12 +123,15 @@ def plot_training_curves(data, save_path=None):
     print(f"最终训练损失: {train_losses[-1]:.4f}")
 
 if __name__ == "__main__":
-    log_file_path = str(LOG_DIR / 'train')
+    # log_file_path = str(LOG_DIR / 'train')      # ResNet-18
+    log_file_path = str(LOG_DIR / 'custom_train')        # customResNet
+
 
     print("log parsing...")
     training_data =  parse_log_file(log_file_path)
 
     print('drawing chart...')
-    plot_training_curves(training_data, save_path=str(CHART_SAVE_DIR/'training_curve.png'))
+    # plot_training_curves(training_data, save_path=str(CHART_SAVE_DIR/'training_curve.png'))   # ResNet-18
+    plot_training_curves(training_data, save_path=str(CHART_SAVE_DIR/'custom_training_curve.png'))     # customResNet
 
 

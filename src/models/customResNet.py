@@ -39,8 +39,6 @@ class customResNet(nn.Module):
         # 两个残差块，通道数：128->256, 图片尺寸：8x8(只有第一个残差块的第一层卷积层设置stride控制下采样)
         # 第一个残差块有shortcut: stride=2, in_channels != out_channels
         # 第二个残差块无shortcut: stride=1, in_channels == out_channels
-        # 总参数:128x256x3x3+256x2+256x256x3x3+256x2+128x256x1x1
-        # +256x256x3x3+256x2+256x256x3x3+256x2=2099200
         # 总参数:
         # 残差块1（有shortcut）:
         # conv1:128x256x3x3     bn1:256x2

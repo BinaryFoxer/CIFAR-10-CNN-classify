@@ -1,0 +1,243 @@
+2025-11-17 19:56:14 | src.utils.logger          | INFO     | Starting customResNet training on CIFAR-10...
+2025-11-17 19:56:14 | src.utils.logger          | INFO     | Using device: cuda
+2025-11-17 19:56:14 | src.utils.logger          | INFO     | Training for 200 epochs
+2025-11-17 19:59:13 | src.utils.logger          | INFO     | Epoch [1/200] | Train Loss: 1.7091 | Train Acc: 37.09% | Test Acc: 29.69% | LR: 0.099994
+2025-11-17 19:59:13 | src.utils.logger          | INFO     | New best model saved with accuracy: 29.69%
+2025-11-17 20:02:14 | src.utils.logger          | INFO     | Epoch [2/200] | Train Loss: 1.1825 | Train Acc: 57.26% | Test Acc: 57.08% | LR: 0.099975
+2025-11-17 20:02:14 | src.utils.logger          | INFO     | New best model saved with accuracy: 57.08%
+2025-11-17 20:05:28 | src.utils.logger          | INFO     | Epoch [3/200] | Train Loss: 0.9321 | Train Acc: 67.10% | Test Acc: 59.62% | LR: 0.099944
+2025-11-17 20:05:29 | src.utils.logger          | INFO     | New best model saved with accuracy: 59.62%
+2025-11-17 20:08:56 | src.utils.logger          | INFO     | Epoch [4/200] | Train Loss: 0.7941 | Train Acc: 72.11% | Test Acc: 65.52% | LR: 0.099901
+2025-11-17 20:08:56 | src.utils.logger          | INFO     | New best model saved with accuracy: 65.52%
+2025-11-17 20:12:26 | src.utils.logger          | INFO     | Epoch [5/200] | Train Loss: 0.7119 | Train Acc: 75.17% | Test Acc: 66.66% | LR: 0.099846
+2025-11-17 20:12:27 | src.utils.logger          | INFO     | New best model saved with accuracy: 66.66%
+2025-11-17 20:15:56 | src.utils.logger          | INFO     | Epoch [6/200] | Train Loss: 0.6586 | Train Acc: 77.13% | Test Acc: 69.06% | LR: 0.099778
+2025-11-17 20:15:56 | src.utils.logger          | INFO     | New best model saved with accuracy: 69.06%
+2025-11-17 20:19:23 | src.utils.logger          | INFO     | Epoch [7/200] | Train Loss: 0.6234 | Train Acc: 78.56% | Test Acc: 68.36% | LR: 0.099698
+2025-11-17 20:22:36 | src.utils.logger          | INFO     | Epoch [8/200] | Train Loss: 0.6010 | Train Acc: 79.10% | Test Acc: 63.58% | LR: 0.099606
+2025-11-17 20:25:49 | src.utils.logger          | INFO     | Epoch [9/200] | Train Loss: 0.5719 | Train Acc: 80.33% | Test Acc: 77.22% | LR: 0.099501
+2025-11-17 20:25:50 | src.utils.logger          | INFO     | New best model saved with accuracy: 77.22%
+2025-11-17 20:29:05 | src.utils.logger          | INFO     | Epoch [10/200] | Train Loss: 0.5646 | Train Acc: 80.55% | Test Acc: 62.05% | LR: 0.099384
+2025-11-17 20:32:17 | src.utils.logger          | INFO     | Epoch [11/200] | Train Loss: 0.5415 | Train Acc: 81.28% | Test Acc: 77.13% | LR: 0.099255
+2025-11-17 20:35:14 | src.utils.logger          | INFO     | Epoch [12/200] | Train Loss: 0.5246 | Train Acc: 81.99% | Test Acc: 78.53% | LR: 0.099114
+2025-11-17 20:35:15 | src.utils.logger          | INFO     | New best model saved with accuracy: 78.53%
+2025-11-17 20:38:18 | src.utils.logger          | INFO     | Epoch [13/200] | Train Loss: 0.5120 | Train Acc: 82.44% | Test Acc: 72.79% | LR: 0.098961
+2025-11-17 20:41:27 | src.utils.logger          | INFO     | Epoch [14/200] | Train Loss: 0.5091 | Train Acc: 82.65% | Test Acc: 77.22% | LR: 0.098796
+2025-11-17 20:44:40 | src.utils.logger          | INFO     | Epoch [15/200] | Train Loss: 0.5008 | Train Acc: 82.75% | Test Acc: 80.05% | LR: 0.098619
+2025-11-17 20:44:41 | src.utils.logger          | INFO     | New best model saved with accuracy: 80.05%
+2025-11-17 20:47:58 | src.utils.logger          | INFO     | Epoch [16/200] | Train Loss: 0.4886 | Train Acc: 83.15% | Test Acc: 71.30% | LR: 0.098429
+2025-11-17 20:51:12 | src.utils.logger          | INFO     | Epoch [17/200] | Train Loss: 0.4812 | Train Acc: 83.57% | Test Acc: 72.92% | LR: 0.098228
+2025-11-17 20:54:25 | src.utils.logger          | INFO     | Epoch [18/200] | Train Loss: 0.4825 | Train Acc: 83.36% | Test Acc: 76.13% | LR: 0.098015
+2025-11-17 20:57:34 | src.utils.logger          | INFO     | Epoch [19/200] | Train Loss: 0.4711 | Train Acc: 83.96% | Test Acc: 76.26% | LR: 0.097790
+2025-11-17 21:00:39 | src.utils.logger          | INFO     | Epoch [20/200] | Train Loss: 0.4652 | Train Acc: 84.14% | Test Acc: 71.41% | LR: 0.097553
+2025-11-17 21:03:46 | src.utils.logger          | INFO     | Epoch [21/200] | Train Loss: 0.4598 | Train Acc: 84.28% | Test Acc: 71.37% | LR: 0.097304
+2025-11-17 21:06:55 | src.utils.logger          | INFO     | Epoch [22/200] | Train Loss: 0.4584 | Train Acc: 84.32% | Test Acc: 74.07% | LR: 0.097044
+2025-11-17 21:10:01 | src.utils.logger          | INFO     | Epoch [23/200] | Train Loss: 0.4559 | Train Acc: 84.22% | Test Acc: 79.15% | LR: 0.096772
+2025-11-17 21:13:08 | src.utils.logger          | INFO     | Epoch [24/200] | Train Loss: 0.4463 | Train Acc: 84.63% | Test Acc: 76.35% | LR: 0.096489
+2025-11-17 21:16:14 | src.utils.logger          | INFO     | Epoch [25/200] | Train Loss: 0.4405 | Train Acc: 84.88% | Test Acc: 77.73% | LR: 0.096194
+2025-11-17 21:19:19 | src.utils.logger          | INFO     | Epoch [26/200] | Train Loss: 0.4403 | Train Acc: 84.80% | Test Acc: 73.96% | LR: 0.095888
+2025-11-17 21:22:26 | src.utils.logger          | INFO     | Epoch [27/200] | Train Loss: 0.4389 | Train Acc: 84.80% | Test Acc: 69.46% | LR: 0.095570
+2025-11-17 21:25:33 | src.utils.logger          | INFO     | Epoch [28/200] | Train Loss: 0.4399 | Train Acc: 84.88% | Test Acc: 68.80% | LR: 0.095241
+2025-11-17 21:28:40 | src.utils.logger          | INFO     | Epoch [29/200] | Train Loss: 0.4318 | Train Acc: 85.29% | Test Acc: 71.15% | LR: 0.094901
+2025-11-17 21:31:47 | src.utils.logger          | INFO     | Epoch [30/200] | Train Loss: 0.4315 | Train Acc: 85.24% | Test Acc: 73.68% | LR: 0.094550
+2025-11-17 21:34:53 | src.utils.logger          | INFO     | Epoch [31/200] | Train Loss: 0.4288 | Train Acc: 85.21% | Test Acc: 79.18% | LR: 0.094188
+2025-11-17 21:37:59 | src.utils.logger          | INFO     | Epoch [32/200] | Train Loss: 0.4246 | Train Acc: 85.35% | Test Acc: 74.29% | LR: 0.093815
+2025-11-17 21:41:05 | src.utils.logger          | INFO     | Epoch [33/200] | Train Loss: 0.4213 | Train Acc: 85.42% | Test Acc: 74.03% | LR: 0.093432
+2025-11-17 21:44:13 | src.utils.logger          | INFO     | Epoch [34/200] | Train Loss: 0.4247 | Train Acc: 85.47% | Test Acc: 75.70% | LR: 0.093037
+2025-11-17 21:47:19 | src.utils.logger          | INFO     | Epoch [35/200] | Train Loss: 0.4239 | Train Acc: 85.40% | Test Acc: 78.17% | LR: 0.092632
+2025-11-17 21:50:24 | src.utils.logger          | INFO     | Epoch [36/200] | Train Loss: 0.4166 | Train Acc: 85.70% | Test Acc: 61.58% | LR: 0.092216
+2025-11-17 21:53:34 | src.utils.logger          | INFO     | Epoch [37/200] | Train Loss: 0.4119 | Train Acc: 85.93% | Test Acc: 77.84% | LR: 0.091790
+2025-11-17 21:56:41 | src.utils.logger          | INFO     | Epoch [38/200] | Train Loss: 0.4160 | Train Acc: 85.83% | Test Acc: 71.35% | LR: 0.091354
+2025-11-17 21:59:47 | src.utils.logger          | INFO     | Epoch [39/200] | Train Loss: 0.4066 | Train Acc: 85.98% | Test Acc: 79.84% | LR: 0.090908
+2025-11-17 22:02:55 | src.utils.logger          | INFO     | Epoch [40/200] | Train Loss: 0.4088 | Train Acc: 86.07% | Test Acc: 80.57% | LR: 0.090451
+2025-11-17 22:02:55 | src.utils.logger          | INFO     | New best model saved with accuracy: 80.57%
+2025-11-17 22:06:01 | src.utils.logger          | INFO     | Epoch [41/200] | Train Loss: 0.4092 | Train Acc: 86.01% | Test Acc: 77.70% | LR: 0.089984
+2025-11-17 22:09:09 | src.utils.logger          | INFO     | Epoch [42/200] | Train Loss: 0.4015 | Train Acc: 86.26% | Test Acc: 79.44% | LR: 0.089508
+2025-11-17 22:12:16 | src.utils.logger          | INFO     | Epoch [43/200] | Train Loss: 0.3975 | Train Acc: 86.51% | Test Acc: 73.07% | LR: 0.089022
+2025-11-17 22:15:22 | src.utils.logger          | INFO     | Epoch [44/200] | Train Loss: 0.4005 | Train Acc: 86.42% | Test Acc: 71.81% | LR: 0.088526
+2025-11-17 22:18:27 | src.utils.logger          | INFO     | Epoch [45/200] | Train Loss: 0.3986 | Train Acc: 86.32% | Test Acc: 78.42% | LR: 0.088020
+2025-11-17 22:21:36 | src.utils.logger          | INFO     | Epoch [46/200] | Train Loss: 0.3985 | Train Acc: 86.35% | Test Acc: 81.39% | LR: 0.087506
+2025-11-17 22:21:37 | src.utils.logger          | INFO     | New best model saved with accuracy: 81.39%
+2025-11-17 22:24:49 | src.utils.logger          | INFO     | Epoch [47/200] | Train Loss: 0.3937 | Train Acc: 86.52% | Test Acc: 77.70% | LR: 0.086982
+2025-11-17 22:27:56 | src.utils.logger          | INFO     | Epoch [48/200] | Train Loss: 0.3932 | Train Acc: 86.39% | Test Acc: 76.10% | LR: 0.086449
+2025-11-17 22:31:01 | src.utils.logger          | INFO     | Epoch [49/200] | Train Loss: 0.3968 | Train Acc: 86.36% | Test Acc: 73.96% | LR: 0.085906
+2025-11-17 22:34:13 | src.utils.logger          | INFO     | Epoch [50/200] | Train Loss: 0.3866 | Train Acc: 86.81% | Test Acc: 78.33% | LR: 0.085355
+2025-11-17 22:37:21 | src.utils.logger          | INFO     | Epoch [51/200] | Train Loss: 0.3863 | Train Acc: 86.77% | Test Acc: 79.76% | LR: 0.084796
+2025-11-17 22:40:28 | src.utils.logger          | INFO     | Epoch [52/200] | Train Loss: 0.3847 | Train Acc: 86.79% | Test Acc: 81.56% | LR: 0.084228
+2025-11-17 22:40:28 | src.utils.logger          | INFO     | New best model saved with accuracy: 81.56%
+2025-11-17 22:43:34 | src.utils.logger          | INFO     | Epoch [53/200] | Train Loss: 0.3875 | Train Acc: 86.70% | Test Acc: 77.67% | LR: 0.083651
+2025-11-17 22:46:40 | src.utils.logger          | INFO     | Epoch [54/200] | Train Loss: 0.3788 | Train Acc: 87.02% | Test Acc: 81.39% | LR: 0.083066
+2025-11-17 22:49:48 | src.utils.logger          | INFO     | Epoch [55/200] | Train Loss: 0.3800 | Train Acc: 86.95% | Test Acc: 82.26% | LR: 0.082473
+2025-11-17 22:49:48 | src.utils.logger          | INFO     | New best model saved with accuracy: 82.26%
+2025-11-17 22:52:57 | src.utils.logger          | INFO     | Epoch [56/200] | Train Loss: 0.3803 | Train Acc: 87.00% | Test Acc: 74.83% | LR: 0.081871
+2025-11-17 22:56:03 | src.utils.logger          | INFO     | Epoch [57/200] | Train Loss: 0.3783 | Train Acc: 87.19% | Test Acc: 80.22% | LR: 0.081262
+2025-11-17 22:59:11 | src.utils.logger          | INFO     | Epoch [58/200] | Train Loss: 0.3777 | Train Acc: 87.15% | Test Acc: 75.92% | LR: 0.080646
+2025-11-17 23:02:18 | src.utils.logger          | INFO     | Epoch [59/200] | Train Loss: 0.3716 | Train Acc: 87.17% | Test Acc: 74.75% | LR: 0.080021
+2025-11-17 23:05:24 | src.utils.logger          | INFO     | Epoch [60/200] | Train Loss: 0.3722 | Train Acc: 87.11% | Test Acc: 79.31% | LR: 0.079389
+2025-11-17 23:08:32 | src.utils.logger          | INFO     | Epoch [61/200] | Train Loss: 0.3721 | Train Acc: 87.23% | Test Acc: 83.94% | LR: 0.078750
+2025-11-17 23:08:33 | src.utils.logger          | INFO     | New best model saved with accuracy: 83.94%
+2025-11-17 23:11:39 | src.utils.logger          | INFO     | Epoch [62/200] | Train Loss: 0.3632 | Train Acc: 87.70% | Test Acc: 78.35% | LR: 0.078104
+2025-11-17 23:14:46 | src.utils.logger          | INFO     | Epoch [63/200] | Train Loss: 0.3660 | Train Acc: 87.49% | Test Acc: 71.83% | LR: 0.077451
+2025-11-17 23:17:51 | src.utils.logger          | INFO     | Epoch [64/200] | Train Loss: 0.3641 | Train Acc: 87.51% | Test Acc: 80.33% | LR: 0.076792
+2025-11-17 23:20:58 | src.utils.logger          | INFO     | Epoch [65/200] | Train Loss: 0.3575 | Train Acc: 87.86% | Test Acc: 79.99% | LR: 0.076125
+2025-11-17 23:24:08 | src.utils.logger          | INFO     | Epoch [66/200] | Train Loss: 0.3573 | Train Acc: 87.81% | Test Acc: 81.40% | LR: 0.075452
+2025-11-17 23:27:15 | src.utils.logger          | INFO     | Epoch [67/200] | Train Loss: 0.3596 | Train Acc: 87.72% | Test Acc: 76.55% | LR: 0.074773
+2025-11-17 23:30:22 | src.utils.logger          | INFO     | Epoch [68/200] | Train Loss: 0.3508 | Train Acc: 87.97% | Test Acc: 76.77% | LR: 0.074088
+2025-11-17 23:33:28 | src.utils.logger          | INFO     | Epoch [69/200] | Train Loss: 0.3546 | Train Acc: 87.95% | Test Acc: 72.47% | LR: 0.073397
+2025-11-17 23:36:36 | src.utils.logger          | INFO     | Epoch [70/200] | Train Loss: 0.3455 | Train Acc: 88.04% | Test Acc: 77.07% | LR: 0.072700
+2025-11-17 23:39:43 | src.utils.logger          | INFO     | Epoch [71/200] | Train Loss: 0.3414 | Train Acc: 88.29% | Test Acc: 82.74% | LR: 0.071997
+2025-11-17 23:42:49 | src.utils.logger          | INFO     | Epoch [72/200] | Train Loss: 0.3476 | Train Acc: 88.25% | Test Acc: 78.33% | LR: 0.071289
+2025-11-17 23:45:56 | src.utils.logger          | INFO     | Epoch [73/200] | Train Loss: 0.3429 | Train Acc: 88.28% | Test Acc: 81.37% | LR: 0.070576
+2025-11-17 23:49:02 | src.utils.logger          | INFO     | Epoch [74/200] | Train Loss: 0.3421 | Train Acc: 88.19% | Test Acc: 84.39% | LR: 0.069858
+2025-11-17 23:49:02 | src.utils.logger          | INFO     | New best model saved with accuracy: 84.39%
+2025-11-17 23:52:16 | src.utils.logger          | INFO     | Epoch [75/200] | Train Loss: 0.3377 | Train Acc: 88.49% | Test Acc: 80.86% | LR: 0.069134
+2025-11-17 23:55:34 | src.utils.logger          | INFO     | Epoch [76/200] | Train Loss: 0.3358 | Train Acc: 88.59% | Test Acc: 82.55% | LR: 0.068407
+2025-11-17 23:58:41 | src.utils.logger          | INFO     | Epoch [77/200] | Train Loss: 0.3352 | Train Acc: 88.51% | Test Acc: 82.32% | LR: 0.067674
+2025-11-18 00:01:48 | src.utils.logger          | INFO     | Epoch [78/200] | Train Loss: 0.3299 | Train Acc: 88.76% | Test Acc: 81.36% | LR: 0.066937
+2025-11-18 00:04:55 | src.utils.logger          | INFO     | Epoch [79/200] | Train Loss: 0.3279 | Train Acc: 88.64% | Test Acc: 80.43% | LR: 0.066196
+2025-11-18 00:08:00 | src.utils.logger          | INFO     | Epoch [80/200] | Train Loss: 0.3280 | Train Acc: 88.66% | Test Acc: 78.68% | LR: 0.065451
+2025-11-18 00:11:06 | src.utils.logger          | INFO     | Epoch [81/200] | Train Loss: 0.3234 | Train Acc: 88.80% | Test Acc: 82.07% | LR: 0.064702
+2025-11-18 00:14:12 | src.utils.logger          | INFO     | Epoch [82/200] | Train Loss: 0.3239 | Train Acc: 88.78% | Test Acc: 81.64% | LR: 0.063950
+2025-11-18 00:17:19 | src.utils.logger          | INFO     | Epoch [83/200] | Train Loss: 0.3198 | Train Acc: 89.08% | Test Acc: 80.81% | LR: 0.063194
+2025-11-18 00:20:25 | src.utils.logger          | INFO     | Epoch [84/200] | Train Loss: 0.3144 | Train Acc: 89.22% | Test Acc: 81.56% | LR: 0.062435
+2025-11-18 00:23:34 | src.utils.logger          | INFO     | Epoch [85/200] | Train Loss: 0.3118 | Train Acc: 89.20% | Test Acc: 82.58% | LR: 0.061673
+2025-11-18 00:26:41 | src.utils.logger          | INFO     | Epoch [86/200] | Train Loss: 0.3123 | Train Acc: 89.52% | Test Acc: 79.77% | LR: 0.060908
+2025-11-18 00:29:47 | src.utils.logger          | INFO     | Epoch [87/200] | Train Loss: 0.3127 | Train Acc: 89.12% | Test Acc: 84.02% | LR: 0.060140
+2025-11-18 00:32:55 | src.utils.logger          | INFO     | Epoch [88/200] | Train Loss: 0.3035 | Train Acc: 89.72% | Test Acc: 78.95% | LR: 0.059369
+2025-11-18 00:36:01 | src.utils.logger          | INFO     | Epoch [89/200] | Train Loss: 0.3084 | Train Acc: 89.43% | Test Acc: 81.22% | LR: 0.058597
+2025-11-18 00:39:09 | src.utils.logger          | INFO     | Epoch [90/200] | Train Loss: 0.3046 | Train Acc: 89.61% | Test Acc: 78.76% | LR: 0.057822
+2025-11-18 00:42:18 | src.utils.logger          | INFO     | Epoch [91/200] | Train Loss: 0.3008 | Train Acc: 89.61% | Test Acc: 82.02% | LR: 0.057045
+2025-11-18 00:45:26 | src.utils.logger          | INFO     | Epoch [92/200] | Train Loss: 0.2966 | Train Acc: 89.88% | Test Acc: 80.86% | LR: 0.056267
+2025-11-18 00:48:31 | src.utils.logger          | INFO     | Epoch [93/200] | Train Loss: 0.2927 | Train Acc: 89.92% | Test Acc: 82.06% | LR: 0.055487
+2025-11-18 00:51:40 | src.utils.logger          | INFO     | Epoch [94/200] | Train Loss: 0.2899 | Train Acc: 90.06% | Test Acc: 79.17% | LR: 0.054706
+2025-11-18 00:54:45 | src.utils.logger          | INFO     | Epoch [95/200] | Train Loss: 0.2956 | Train Acc: 89.70% | Test Acc: 84.18% | LR: 0.053923
+2025-11-18 00:57:52 | src.utils.logger          | INFO     | Epoch [96/200] | Train Loss: 0.2857 | Train Acc: 90.31% | Test Acc: 84.03% | LR: 0.053140
+2025-11-18 01:00:58 | src.utils.logger          | INFO     | Epoch [97/200] | Train Loss: 0.2841 | Train Acc: 90.18% | Test Acc: 84.07% | LR: 0.052356
+2025-11-18 01:04:04 | src.utils.logger          | INFO     | Epoch [98/200] | Train Loss: 0.2787 | Train Acc: 90.42% | Test Acc: 83.49% | LR: 0.051571
+2025-11-18 01:07:11 | src.utils.logger          | INFO     | Epoch [99/200] | Train Loss: 0.2768 | Train Acc: 90.33% | Test Acc: 84.18% | LR: 0.050786
+2025-11-18 01:10:17 | src.utils.logger          | INFO     | Epoch [100/200] | Train Loss: 0.2733 | Train Acc: 90.49% | Test Acc: 83.78% | LR: 0.050000
+2025-11-18 01:13:24 | src.utils.logger          | INFO     | Epoch [101/200] | Train Loss: 0.2719 | Train Acc: 90.83% | Test Acc: 84.12% | LR: 0.049215
+2025-11-18 01:16:30 | src.utils.logger          | INFO     | Epoch [102/200] | Train Loss: 0.2649 | Train Acc: 90.82% | Test Acc: 85.56% | LR: 0.048430
+2025-11-18 01:16:30 | src.utils.logger          | INFO     | New best model saved with accuracy: 85.56%
+2025-11-18 01:19:37 | src.utils.logger          | INFO     | Epoch [103/200] | Train Loss: 0.2661 | Train Acc: 90.93% | Test Acc: 85.67% | LR: 0.047645
+2025-11-18 01:19:37 | src.utils.logger          | INFO     | New best model saved with accuracy: 85.67%
+2025-11-18 01:22:43 | src.utils.logger          | INFO     | Epoch [104/200] | Train Loss: 0.2672 | Train Acc: 90.76% | Test Acc: 84.10% | LR: 0.046861
+2025-11-18 01:25:51 | src.utils.logger          | INFO     | Epoch [105/200] | Train Loss: 0.2526 | Train Acc: 91.45% | Test Acc: 80.14% | LR: 0.046078
+2025-11-18 01:28:58 | src.utils.logger          | INFO     | Epoch [106/200] | Train Loss: 0.2595 | Train Acc: 91.02% | Test Acc: 81.52% | LR: 0.045295
+2025-11-18 01:32:03 | src.utils.logger          | INFO     | Epoch [107/200] | Train Loss: 0.2542 | Train Acc: 91.15% | Test Acc: 84.83% | LR: 0.044514
+2025-11-18 01:35:10 | src.utils.logger          | INFO     | Epoch [108/200] | Train Loss: 0.2517 | Train Acc: 91.49% | Test Acc: 82.41% | LR: 0.043734
+2025-11-18 01:38:16 | src.utils.logger          | INFO     | Epoch [109/200] | Train Loss: 0.2443 | Train Acc: 91.58% | Test Acc: 85.95% | LR: 0.042956
+2025-11-18 01:38:17 | src.utils.logger          | INFO     | New best model saved with accuracy: 85.95%
+2025-11-18 01:41:24 | src.utils.logger          | INFO     | Epoch [110/200] | Train Loss: 0.2493 | Train Acc: 91.37% | Test Acc: 86.06% | LR: 0.042179
+2025-11-18 01:41:25 | src.utils.logger          | INFO     | New best model saved with accuracy: 86.06%
+2025-11-18 01:44:30 | src.utils.logger          | INFO     | Epoch [111/200] | Train Loss: 0.2413 | Train Acc: 91.64% | Test Acc: 82.70% | LR: 0.041404
+2025-11-18 01:47:36 | src.utils.logger          | INFO     | Epoch [112/200] | Train Loss: 0.2391 | Train Acc: 91.72% | Test Acc: 83.95% | LR: 0.040632
+2025-11-18 01:50:43 | src.utils.logger          | INFO     | Epoch [113/200] | Train Loss: 0.2346 | Train Acc: 91.89% | Test Acc: 86.50% | LR: 0.039861
+2025-11-18 01:50:44 | src.utils.logger          | INFO     | New best model saved with accuracy: 86.50%
+2025-11-18 01:53:53 | src.utils.logger          | INFO     | Epoch [114/200] | Train Loss: 0.2316 | Train Acc: 92.05% | Test Acc: 84.34% | LR: 0.039093
+2025-11-18 01:56:59 | src.utils.logger          | INFO     | Epoch [115/200] | Train Loss: 0.2261 | Train Acc: 92.34% | Test Acc: 86.87% | LR: 0.038328
+2025-11-18 01:57:00 | src.utils.logger          | INFO     | New best model saved with accuracy: 86.87%
+2025-11-18 02:00:08 | src.utils.logger          | INFO     | Epoch [116/200] | Train Loss: 0.2265 | Train Acc: 92.30% | Test Acc: 87.02% | LR: 0.037566
+2025-11-18 02:00:09 | src.utils.logger          | INFO     | New best model saved with accuracy: 87.02%
+2025-11-18 02:03:15 | src.utils.logger          | INFO     | Epoch [117/200] | Train Loss: 0.2232 | Train Acc: 92.31% | Test Acc: 84.96% | LR: 0.036807
+2025-11-18 02:06:24 | src.utils.logger          | INFO     | Epoch [118/200] | Train Loss: 0.2185 | Train Acc: 92.45% | Test Acc: 85.55% | LR: 0.036051
+2025-11-18 02:09:29 | src.utils.logger          | INFO     | Epoch [119/200] | Train Loss: 0.2137 | Train Acc: 92.53% | Test Acc: 86.32% | LR: 0.035299
+2025-11-18 02:12:36 | src.utils.logger          | INFO     | Epoch [120/200] | Train Loss: 0.2182 | Train Acc: 92.49% | Test Acc: 87.04% | LR: 0.034550
+2025-11-18 02:12:36 | src.utils.logger          | INFO     | New best model saved with accuracy: 87.04%
+2025-11-18 02:15:43 | src.utils.logger          | INFO     | Epoch [121/200] | Train Loss: 0.2075 | Train Acc: 92.93% | Test Acc: 85.43% | LR: 0.033805
+2025-11-18 02:18:48 | src.utils.logger          | INFO     | Epoch [122/200] | Train Loss: 0.2059 | Train Acc: 92.99% | Test Acc: 88.95% | LR: 0.033064
+2025-11-18 02:18:49 | src.utils.logger          | INFO     | New best model saved with accuracy: 88.95%
+2025-11-18 02:21:57 | src.utils.logger          | INFO     | Epoch [123/200] | Train Loss: 0.2031 | Train Acc: 92.94% | Test Acc: 85.04% | LR: 0.032327
+2025-11-18 02:25:02 | src.utils.logger          | INFO     | Epoch [124/200] | Train Loss: 0.1971 | Train Acc: 93.26% | Test Acc: 85.87% | LR: 0.031594
+2025-11-18 02:28:08 | src.utils.logger          | INFO     | Epoch [125/200] | Train Loss: 0.1981 | Train Acc: 93.19% | Test Acc: 85.37% | LR: 0.030867
+2025-11-18 02:31:15 | src.utils.logger          | INFO     | Epoch [126/200] | Train Loss: 0.1951 | Train Acc: 93.32% | Test Acc: 83.69% | LR: 0.030143
+2025-11-18 02:34:21 | src.utils.logger          | INFO     | Epoch [127/200] | Train Loss: 0.1815 | Train Acc: 93.77% | Test Acc: 85.42% | LR: 0.029425
+2025-11-18 02:37:28 | src.utils.logger          | INFO     | Epoch [128/200] | Train Loss: 0.1855 | Train Acc: 93.62% | Test Acc: 86.84% | LR: 0.028712
+2025-11-18 02:40:32 | src.utils.logger          | INFO     | Epoch [129/200] | Train Loss: 0.1832 | Train Acc: 93.66% | Test Acc: 87.77% | LR: 0.028004
+2025-11-18 02:43:39 | src.utils.logger          | INFO     | Epoch [130/200] | Train Loss: 0.1769 | Train Acc: 93.96% | Test Acc: 86.09% | LR: 0.027301
+2025-11-18 02:46:46 | src.utils.logger          | INFO     | Epoch [131/200] | Train Loss: 0.1738 | Train Acc: 94.04% | Test Acc: 87.05% | LR: 0.026604
+2025-11-18 02:49:52 | src.utils.logger          | INFO     | Epoch [132/200] | Train Loss: 0.1736 | Train Acc: 94.06% | Test Acc: 87.39% | LR: 0.025913
+2025-11-18 02:52:59 | src.utils.logger          | INFO     | Epoch [133/200] | Train Loss: 0.1660 | Train Acc: 94.18% | Test Acc: 88.33% | LR: 0.025228
+2025-11-18 02:56:06 | src.utils.logger          | INFO     | Epoch [134/200] | Train Loss: 0.1635 | Train Acc: 94.38% | Test Acc: 85.08% | LR: 0.024549
+2025-11-18 02:59:11 | src.utils.logger          | INFO     | Epoch [135/200] | Train Loss: 0.1629 | Train Acc: 94.38% | Test Acc: 85.06% | LR: 0.023876
+2025-11-18 03:02:18 | src.utils.logger          | INFO     | Epoch [136/200] | Train Loss: 0.1580 | Train Acc: 94.52% | Test Acc: 88.27% | LR: 0.023209
+2025-11-18 03:05:24 | src.utils.logger          | INFO     | Epoch [137/200] | Train Loss: 0.1503 | Train Acc: 94.76% | Test Acc: 88.36% | LR: 0.022550
+2025-11-18 03:08:32 | src.utils.logger          | INFO     | Epoch [138/200] | Train Loss: 0.1452 | Train Acc: 95.02% | Test Acc: 86.52% | LR: 0.021897
+2025-11-18 03:11:38 | src.utils.logger          | INFO     | Epoch [139/200] | Train Loss: 0.1456 | Train Acc: 94.98% | Test Acc: 88.81% | LR: 0.021251
+2025-11-18 03:14:44 | src.utils.logger          | INFO     | Epoch [140/200] | Train Loss: 0.1418 | Train Acc: 95.12% | Test Acc: 89.02% | LR: 0.020612
+2025-11-18 03:14:45 | src.utils.logger          | INFO     | New best model saved with accuracy: 89.02%
+2025-11-18 03:17:51 | src.utils.logger          | INFO     | Epoch [141/200] | Train Loss: 0.1326 | Train Acc: 95.43% | Test Acc: 87.04% | LR: 0.019980
+2025-11-18 03:20:56 | src.utils.logger          | INFO     | Epoch [142/200] | Train Loss: 0.1344 | Train Acc: 95.37% | Test Acc: 87.99% | LR: 0.019355
+2025-11-18 03:24:04 | src.utils.logger          | INFO     | Epoch [143/200] | Train Loss: 0.1311 | Train Acc: 95.54% | Test Acc: 90.45% | LR: 0.018739
+2025-11-18 03:24:05 | src.utils.logger          | INFO     | New best model saved with accuracy: 90.45%
+2025-11-18 03:27:10 | src.utils.logger          | INFO     | Epoch [144/200] | Train Loss: 0.1224 | Train Acc: 95.83% | Test Acc: 88.36% | LR: 0.018130
+2025-11-18 03:30:17 | src.utils.logger          | INFO     | Epoch [145/200] | Train Loss: 0.1202 | Train Acc: 95.85% | Test Acc: 90.77% | LR: 0.017528
+2025-11-18 03:30:17 | src.utils.logger          | INFO     | New best model saved with accuracy: 90.77%
+2025-11-18 03:33:24 | src.utils.logger          | INFO     | Epoch [146/200] | Train Loss: 0.1167 | Train Acc: 96.04% | Test Acc: 88.35% | LR: 0.016935
+2025-11-18 03:36:32 | src.utils.logger          | INFO     | Epoch [147/200] | Train Loss: 0.1159 | Train Acc: 96.06% | Test Acc: 89.43% | LR: 0.016350
+2025-11-18 03:39:38 | src.utils.logger          | INFO     | Epoch [148/200] | Train Loss: 0.1118 | Train Acc: 96.14% | Test Acc: 90.06% | LR: 0.015773
+2025-11-18 03:42:44 | src.utils.logger          | INFO     | Epoch [149/200] | Train Loss: 0.1012 | Train Acc: 96.60% | Test Acc: 90.54% | LR: 0.015205
+2025-11-18 03:45:50 | src.utils.logger          | INFO     | Epoch [150/200] | Train Loss: 0.1013 | Train Acc: 96.64% | Test Acc: 88.64% | LR: 0.014646
+2025-11-18 03:48:55 | src.utils.logger          | INFO     | Epoch [151/200] | Train Loss: 0.0977 | Train Acc: 96.69% | Test Acc: 91.57% | LR: 0.014095
+2025-11-18 03:48:56 | src.utils.logger          | INFO     | New best model saved with accuracy: 91.57%
+2025-11-18 03:52:04 | src.utils.logger          | INFO     | Epoch [152/200] | Train Loss: 0.0972 | Train Acc: 96.68% | Test Acc: 89.56% | LR: 0.013552
+2025-11-18 03:55:09 | src.utils.logger          | INFO     | Epoch [153/200] | Train Loss: 0.0903 | Train Acc: 96.95% | Test Acc: 91.11% | LR: 0.013019
+2025-11-18 03:58:15 | src.utils.logger          | INFO     | Epoch [154/200] | Train Loss: 0.0868 | Train Acc: 97.11% | Test Acc: 90.47% | LR: 0.012495
+2025-11-18 04:01:22 | src.utils.logger          | INFO     | Epoch [155/200] | Train Loss: 0.0813 | Train Acc: 97.30% | Test Acc: 90.21% | LR: 0.011981
+2025-11-18 04:04:27 | src.utils.logger          | INFO     | Epoch [156/200] | Train Loss: 0.0820 | Train Acc: 97.30% | Test Acc: 89.74% | LR: 0.011475
+2025-11-18 04:07:34 | src.utils.logger          | INFO     | Epoch [157/200] | Train Loss: 0.0775 | Train Acc: 97.39% | Test Acc: 90.77% | LR: 0.010979
+2025-11-18 04:10:40 | src.utils.logger          | INFO     | Epoch [158/200] | Train Loss: 0.0722 | Train Acc: 97.63% | Test Acc: 90.83% | LR: 0.010493
+2025-11-18 04:13:45 | src.utils.logger          | INFO     | Epoch [159/200] | Train Loss: 0.0702 | Train Acc: 97.65% | Test Acc: 90.95% | LR: 0.010017
+2025-11-18 04:16:53 | src.utils.logger          | INFO     | Epoch [160/200] | Train Loss: 0.0691 | Train Acc: 97.67% | Test Acc: 89.27% | LR: 0.009550
+2025-11-18 04:19:58 | src.utils.logger          | INFO     | Epoch [161/200] | Train Loss: 0.0605 | Train Acc: 98.04% | Test Acc: 91.40% | LR: 0.009093
+2025-11-18 04:23:05 | src.utils.logger          | INFO     | Epoch [162/200] | Train Loss: 0.0567 | Train Acc: 98.18% | Test Acc: 90.82% | LR: 0.008647
+2025-11-18 04:26:10 | src.utils.logger          | INFO     | Epoch [163/200] | Train Loss: 0.0514 | Train Acc: 98.39% | Test Acc: 90.55% | LR: 0.008211
+2025-11-18 04:29:15 | src.utils.logger          | INFO     | Epoch [164/200] | Train Loss: 0.0508 | Train Acc: 98.33% | Test Acc: 91.74% | LR: 0.007785
+2025-11-18 04:29:16 | src.utils.logger          | INFO     | New best model saved with accuracy: 91.74%
+2025-11-18 04:32:22 | src.utils.logger          | INFO     | Epoch [165/200] | Train Loss: 0.0472 | Train Acc: 98.43% | Test Acc: 91.66% | LR: 0.007369
+2025-11-18 04:35:27 | src.utils.logger          | INFO     | Epoch [166/200] | Train Loss: 0.0430 | Train Acc: 98.64% | Test Acc: 91.71% | LR: 0.006964
+2025-11-18 04:38:37 | src.utils.logger          | INFO     | Epoch [167/200] | Train Loss: 0.0406 | Train Acc: 98.68% | Test Acc: 92.13% | LR: 0.006569
+2025-11-18 04:38:38 | src.utils.logger          | INFO     | New best model saved with accuracy: 92.13%
+2025-11-18 04:41:43 | src.utils.logger          | INFO     | Epoch [168/200] | Train Loss: 0.0376 | Train Acc: 98.77% | Test Acc: 92.31% | LR: 0.006186
+2025-11-18 04:41:44 | src.utils.logger          | INFO     | New best model saved with accuracy: 92.31%
+2025-11-18 04:44:49 | src.utils.logger          | INFO     | Epoch [169/200] | Train Loss: 0.0343 | Train Acc: 98.97% | Test Acc: 92.13% | LR: 0.005813
+2025-11-18 04:47:56 | src.utils.logger          | INFO     | Epoch [170/200] | Train Loss: 0.0318 | Train Acc: 99.07% | Test Acc: 92.93% | LR: 0.005451
+2025-11-18 04:47:57 | src.utils.logger          | INFO     | New best model saved with accuracy: 92.93%
+2025-11-18 04:51:02 | src.utils.logger          | INFO     | Epoch [171/200] | Train Loss: 0.0308 | Train Acc: 99.02% | Test Acc: 92.26% | LR: 0.005100
+2025-11-18 04:54:11 | src.utils.logger          | INFO     | Epoch [172/200] | Train Loss: 0.0263 | Train Acc: 99.27% | Test Acc: 92.50% | LR: 0.004760
+2025-11-18 04:57:17 | src.utils.logger          | INFO     | Epoch [173/200] | Train Loss: 0.0272 | Train Acc: 99.16% | Test Acc: 92.58% | LR: 0.004431
+2025-11-18 05:00:23 | src.utils.logger          | INFO     | Epoch [174/200] | Train Loss: 0.0246 | Train Acc: 99.26% | Test Acc: 92.90% | LR: 0.004113
+2025-11-18 05:03:29 | src.utils.logger          | INFO     | Epoch [175/200] | Train Loss: 0.0252 | Train Acc: 99.25% | Test Acc: 92.75% | LR: 0.003807
+2025-11-18 05:06:38 | src.utils.logger          | INFO     | Epoch [176/200] | Train Loss: 0.0218 | Train Acc: 99.36% | Test Acc: 93.04% | LR: 0.003512
+2025-11-18 05:06:39 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.04%
+2025-11-18 05:09:46 | src.utils.logger          | INFO     | Epoch [177/200] | Train Loss: 0.0199 | Train Acc: 99.46% | Test Acc: 92.94% | LR: 0.003229
+2025-11-18 05:12:52 | src.utils.logger          | INFO     | Epoch [178/200] | Train Loss: 0.0183 | Train Acc: 99.49% | Test Acc: 93.37% | LR: 0.002957
+2025-11-18 05:12:52 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.37%
+2025-11-18 05:15:59 | src.utils.logger          | INFO     | Epoch [179/200] | Train Loss: 0.0167 | Train Acc: 99.53% | Test Acc: 93.20% | LR: 0.002697
+2025-11-18 05:19:05 | src.utils.logger          | INFO     | Epoch [180/200] | Train Loss: 0.0160 | Train Acc: 99.54% | Test Acc: 93.49% | LR: 0.002448
+2025-11-18 05:19:05 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.49%
+2025-11-18 05:22:13 | src.utils.logger          | INFO     | Epoch [181/200] | Train Loss: 0.0147 | Train Acc: 99.60% | Test Acc: 93.48% | LR: 0.002211
+2025-11-18 05:25:19 | src.utils.logger          | INFO     | Epoch [182/200] | Train Loss: 0.0144 | Train Acc: 99.59% | Test Acc: 93.31% | LR: 0.001986
+2025-11-18 05:28:24 | src.utils.logger          | INFO     | Epoch [183/200] | Train Loss: 0.0129 | Train Acc: 99.69% | Test Acc: 93.47% | LR: 0.001773
+2025-11-18 05:31:32 | src.utils.logger          | INFO     | Epoch [184/200] | Train Loss: 0.0139 | Train Acc: 99.64% | Test Acc: 93.26% | LR: 0.001572
+2025-11-18 05:34:47 | src.utils.logger          | INFO     | Epoch [185/200] | Train Loss: 0.0113 | Train Acc: 99.74% | Test Acc: 93.61% | LR: 0.001382
+2025-11-18 05:34:48 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.61%
+2025-11-18 05:37:55 | src.utils.logger          | INFO     | Epoch [186/200] | Train Loss: 0.0121 | Train Acc: 99.70% | Test Acc: 93.68% | LR: 0.001205
+2025-11-18 05:37:56 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.68%
+2025-11-18 05:41:03 | src.utils.logger          | INFO     | Epoch [187/200] | Train Loss: 0.0112 | Train Acc: 99.73% | Test Acc: 93.60% | LR: 0.001040
+2025-11-18 05:44:09 | src.utils.logger          | INFO     | Epoch [188/200] | Train Loss: 0.0109 | Train Acc: 99.75% | Test Acc: 93.82% | LR: 0.000887
+2025-11-18 05:44:09 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.82%
+2025-11-18 05:47:16 | src.utils.logger          | INFO     | Epoch [189/200] | Train Loss: 0.0108 | Train Acc: 99.72% | Test Acc: 93.93% | LR: 0.000746
+2025-11-18 05:47:16 | src.utils.logger          | INFO     | New best model saved with accuracy: 93.93%
+2025-11-18 05:50:24 | src.utils.logger          | INFO     | Epoch [190/200] | Train Loss: 0.0103 | Train Acc: 99.76% | Test Acc: 93.78% | LR: 0.000617
+2025-11-18 05:53:32 | src.utils.logger          | INFO     | Epoch [191/200] | Train Loss: 0.0098 | Train Acc: 99.77% | Test Acc: 93.87% | LR: 0.000500
+2025-11-18 05:56:52 | src.utils.logger          | INFO     | Epoch [192/200] | Train Loss: 0.0093 | Train Acc: 99.79% | Test Acc: 93.79% | LR: 0.000395
+2025-11-18 05:59:59 | src.utils.logger          | INFO     | Epoch [193/200] | Train Loss: 0.0095 | Train Acc: 99.77% | Test Acc: 93.70% | LR: 0.000303
+2025-11-18 06:03:06 | src.utils.logger          | INFO     | Epoch [194/200] | Train Loss: 0.0098 | Train Acc: 99.74% | Test Acc: 93.83% | LR: 0.000223
+2025-11-18 06:06:15 | src.utils.logger          | INFO     | Epoch [195/200] | Train Loss: 0.0094 | Train Acc: 99.79% | Test Acc: 93.85% | LR: 0.000155
+2025-11-18 06:09:20 | src.utils.logger          | INFO     | Epoch [196/200] | Train Loss: 0.0095 | Train Acc: 99.79% | Test Acc: 93.79% | LR: 0.000100
+2025-11-18 06:12:26 | src.utils.logger          | INFO     | Epoch [197/200] | Train Loss: 0.0093 | Train Acc: 99.77% | Test Acc: 93.83% | LR: 0.000057
+2025-11-18 06:15:31 | src.utils.logger          | INFO     | Epoch [198/200] | Train Loss: 0.0095 | Train Acc: 99.77% | Test Acc: 93.85% | LR: 0.000026
+2025-11-18 06:18:37 | src.utils.logger          | INFO     | Epoch [199/200] | Train Loss: 0.0097 | Train Acc: 99.76% | Test Acc: 93.76% | LR: 0.000007
+2025-11-18 06:21:45 | src.utils.logger          | INFO     | Epoch [200/200] | Train Loss: 0.0091 | Train Acc: 99.78% | Test Acc: 93.81% | LR: 0.000001
+2025-11-18 06:21:45 | src.utils.logger          | INFO     | Training completed. Best accuracy: 93.93%

@@ -4,9 +4,12 @@ from tqdm import tqdm
 from config.config import DEVICE, LOG_DIR, MODEL_SAVE_DIR
 from data.dataset import get_data_loader
 from models.ResNet18 import CIFAR_ResNet18
+from models.customResNet import customResNet
 from utils.logger import setup_logger
 
-logger = setup_logger(log_dir=str(LOG_DIR), log_file='test')
+# logger = setup_logger(log_dir=str(LOG_DIR), log_file='test')
+logger = setup_logger(log_dir=str(LOG_DIR), log_file='custom_test')
+
 
 def test_model():
     '''
@@ -15,11 +18,13 @@ def test_model():
     _, test_loader, classes = get_data_loader()
 
     # Initialize ResNet model.
-    model = CIFAR_ResNet18(num_classes=len(classes)).to(DEVICE)
+    # model = CIFAR_ResNet18(num_classes=len(classes)).to(DEVICE)   # ResNet-18
+    model = customResNet(num_classes=len(classes)).to(DEVICE)     # CustomResNet
+
 
     try:
-        checkpoint = torch.load(str(MODEL_SAVE_DIR/'resnet_final_model.pth'))
-        # checkpoint = torch.load(str(MODEL_SAVE_DIR/'custom_final_model.pth'))
+        # checkpoint = torch.load(str(MODEL_SAVE_DIR/'resnet_final_model.pth')) # ResNet Model
+        checkpoint = torch.load(str(MODEL_SAVE_DIR/'custom_final_model.pth'))   # custom ResNet Model
         model.load_state_dict(checkpoint['model_state_dict'])
         model.eval()
         logger.info("Model loaded successfully")
